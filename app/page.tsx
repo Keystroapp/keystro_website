@@ -1,9 +1,10 @@
 "use client";
 import { WavyBackground } from "@/components/wavy-background";
 
-import KeystorekeSection from "@/components/keystorke-section";
+import KeystorkeSection from "@/components/keystorke-section";
 import { FloatingNav } from "@/components/navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import WhyYouNeedThis from "../components/why-you-need-this";
 export default function Home() {
   function isMacintosh() {
     return navigator.platform.indexOf("Mac") > -1;
@@ -32,10 +33,10 @@ export default function Home() {
     <div>
       <WavyBackground className="max-w-4xl mx-auto">
         <FloatingNav navItems={navItems} />
-        <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
+        <p className="mobile:text-2xl tablet:text-4xl text-7xl text-white font-bold inter-var text-center">
           Enhance Your Screen Recording Experience!
         </p>
-        <p className="text-base md:text-lg px-6 md:mt-10 mt-4 text-[#8C8C8C] font-normal inter-var text-center">
+        <p className="tablet:text-base mobile:text-base text-lg px-6 md:mt-10 mt-4 text-[#8C8C8C] font-normal inter-var text-center">
           Show which key you pressing to your audience, Highlight Your Cursor,
           and Hear Realistic Keyboard Sounds! Available for Windows and MacOS.
         </p>
@@ -56,26 +57,8 @@ export default function Home() {
             : "Supports Windows 7+"}
         </p>
       </WavyBackground>
-      <div className="max-w-4xl mx-auto mt-10">
-        <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-          How it works?
-        </p>
-        <p className="text-base md:text-lg px-6 md:mt-10 mt-4 text-white font-normal inter-var text-center">
-          Keystrokes are recorded and saved to your computer. The app then
-          converts the recording into a video and plays it back to you. The
-          recording is saved to your computer and can be viewed later.
-        </p>
-        <p className="text-base md:text-lg px-6 md:mt-10 mt-4 text-white font-normal inter-var text-center">
-          The app also allows you to highlight the keys you pressed and hear the
-          corresponding sound. This feature is especially useful for recording
-          your screen while you are typing.
-        </p>
-        <p className="text-base md:text-lg px-6 md:mt-10 mt-4 text-white font-normal inter-var text-center">
-          The app is available for Windows and MacOS. It is free to download and
-          use.
-        </p>
-      </div>
-      <KeystorekeSection />
+      <WhyYouNeedThis />
+      <KeystorkeSection />
     </div>
   );
 }
