@@ -15,7 +15,7 @@ export default function KeystorkeSection() {
         </p>
         <div className="border-t border-t-gray-800 border-t-1 mt-4 ">
           <h1 className="text-xl md:text-xl mt-4  lg:text-xl text-white font-bold inter-var">
-            Multiple desktops support
+            Multiple Screen support
           </h1>
           <p className="mobile:tablet:text-base text-lg mobile:tablet:mt-4 mt-2 text-[#8C8C8C] font-normal inter-var">
             Easily select any connected screen to display keystrokes.

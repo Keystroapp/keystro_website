@@ -7,11 +7,11 @@ export default function CursorSection() {
       "
       >
         <h1 className="text-3xl text-white font-bold inter-var">
-          Highly customizable.
+          Highlight the cursor.
         </h1>
         <p className="mobile:tablet:text-base text-lg mt-6 mobile:tablet:mt-4 text-[#8C8C8C] font-normal inter-var">
-          Pick your shape, size, and colors. Decide on border thickness, style,
-          and glow. You&apos;ll effortlessly create a breathtaking design that
+          Our cursor highlighter is highly customizable, Pick your shape, size,
+          and colors. You&apos;ll effortlessly create a breathtaking design that
           will amaze your audience.
         </p>
         <div className="border-t border-t-gray-800 border-t-1 mt-4 ">

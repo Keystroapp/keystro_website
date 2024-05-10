@@ -1,4 +1,3 @@
-"use client";
 import { WavyBackground } from "@/components/wavy-background";
 
 import CursorSection from "@/components/cursor-section";
