@@ -1,6 +1,6 @@
 export default function WhyYouNeedThis() {
   return (
-    <div className="max-w-4xl mx-auto mt-10 px-6 flex ">
+    <div className="max-w-4xl mx-auto my-[150px] px-6 flex ">
       <div className="px-2">
         <p className="mobile:tablet:text-xl mini-laptop:text-2xl text-4xl text-white font-bold inter-var">
           Why do you need to show keystrokes?

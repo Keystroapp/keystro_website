@@ -1,10 +1,12 @@
 "use client";
 import { WavyBackground } from "@/components/wavy-background";
 
+import CursorSection from "@/components/cursor-section";
 import KeystorkeSection from "@/components/keystorke-section";
 import { FloatingNav } from "@/components/navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import WhyYouNeedThis from "../components/why-you-need-this";
+
 export default function Home() {
   function isMacintosh() {
     return navigator.platform.indexOf("Mac") > -1;
@@ -33,9 +35,9 @@ export default function Home() {
     <div>
       <WavyBackground className="max-w-4xl mx-auto">
         <FloatingNav navItems={navItems} />
-        <p className="mobile:text-2xl tablet:text-4xl text-7xl text-white font-bold inter-var text-center">
+        <h1 className="mobile:text-2xl tablet:text-4xl text-7xl text-white font-bold inter-var text-center">
           Enhance Your Screen Recording Experience!
-        </p>
+        </h1>
         <p className="tablet:text-base mobile:text-base text-lg px-6 md:mt-10 mt-4 text-[#8C8C8C] font-normal inter-var text-center">
           Show which key you pressing to your audience, Highlight Your Cursor,
           and Hear Realistic Keyboard Sounds! Available for Windows and MacOS.
@@ -57,8 +59,9 @@ export default function Home() {
             : "Supports Windows 7+"}
         </p>
       </WavyBackground>
-      <WhyYouNeedThis />
       <KeystorkeSection />
+      <CursorSection />
+      <WhyYouNeedThis />
     </div>
   );
 }
