@@ -8,11 +8,7 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import WhyYouNeedThis from "../components/why-you-need-this";
 
 export default function Home() {
-  const isMac =
-    typeof window !== "undefined"
-      ? navigator.platform.toUpperCase().indexOf("MAC") >= 0
-      : false;
-
+  const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
   const navItems = [
     {
       name: "Home",
