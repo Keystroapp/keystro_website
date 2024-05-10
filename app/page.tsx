@@ -7,9 +7,11 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 import WhyYouNeedThis from "../components/why-you-need-this";
 
 export default function Home() {
-  function isMacintosh() {
-    return navigator.platform.indexOf("Mac") > -1;
-  }
+  const isMac =
+    typeof window !== "undefined"
+      ? navigator.platform.toUpperCase().indexOf("MAC") >= 0
+      : false;
+
   const navItems = [
     {
       name: "Home",
@@ -42,7 +44,7 @@ export default function Home() {
           and Hear Realistic Keyboard Sounds! Available for Windows and MacOS.
         </p>
         <div className="flex justify-center mt-10">
-          {isMacintosh() ? (
+          {isMac ? (
             <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
               Download for Mac
             </button>
@@ -53,7 +55,7 @@ export default function Home() {
           )}
         </div>
         <p className="text-sm md:text-sm px-6 mt-4 text-gray-400 font-normal inter-var text-center">
-          {isMacintosh()
+          {isMac
             ? "Supports Mac Intel & Apple Silicon. macOS 10.15+"
             : "Supports Windows 7+"}
         </p>
