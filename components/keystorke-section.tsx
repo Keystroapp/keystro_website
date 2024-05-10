@@ -1,9 +1,9 @@
 export default function KeystorkeSection() {
   return (
-    <div className="max-w-6xl mx-auto mt-[150px] px-6 flex flex-row mobile:flex-col tablet:flex-col mini-laptop:flex-col ">
+    <div className="max-w-6xl mx-auto mt-[150px] px-6  flex flex-row mobile:flex-col tablet:flex-col mini-laptop:flex-col ">
       <div
         className="flex-none max-w-[600px] px-6 tablet:max-w-full mobile:max-w-full mini-laptop:max-w-full 
-      tablet:mb-10 mobile:mb-10 mini-laptop:mb-10 my-4
+      tablet:mb-10 mobile:mb-10 mini-laptop:mb-10 my-4 mobile:px-0
       "
       >
         <h1 className="text-3xl text-white font-bold inter-var">
@@ -31,7 +31,7 @@ export default function KeystorkeSection() {
         </div>
       </div>
 
-      <div className="rounded-xl bg-white grow-2">
+      <div className="rounded-xl grow-2">
         <video
           controls={true}
           loop={true}

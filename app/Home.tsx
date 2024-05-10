@@ -1,14 +1,14 @@
 "use client";
-import { WavyBackground } from "@/components/wavy-background";
-
 import CursorSection from "@/components/cursor-section";
 import KeystorkeSection from "@/components/keystorke-section";
 import { FloatingNav } from "@/components/navbar";
 import Pricing from "@/components/pricing";
-import ThockSection from "@/components/thock-section";
-import { IconHome, IconMessage, IconMoneybag } from "@tabler/icons-react";
-import WhyYouNeedThis from "../components/why-you-need-this";
 import SocialIcons from "@/components/social";
+import ThockSection from "@/components/thock-section";
+import { WavyBackground } from "@/components/wavy-background";
+import { IconHome, IconMessage, IconMoneybag } from "@tabler/icons-react";
+import Link from "next/link";
+import WhyYouNeedThis from "../components/why-you-need-this";
 
 export default function Home() {
   const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
@@ -48,9 +48,12 @@ export default function Home() {
         <div className="flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
           {isMac ? (
             <div className="px-6 flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
-              <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
-                Download for Mac
-              </button>
+              <Link href="https://github.com/keystroke/keystroke-app/releases/download/source code.zip">
+                <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
+                  Download for Mac
+                </button>
+              </Link>
+
               <div className="mx-2 my-2"></div>
               <button className="  px-8 py-2  rounded-full text-white border-2 border-[#0D5EF4] font-light transition duration-200 ease-linear">
                 Download for Windows
@@ -119,7 +122,7 @@ export default function Home() {
         </div>
       </div>
       <SocialIcons />
-      <div className="text-center text-gray-400 text-sm my-10">
+      <div className="text-center text-gray-400 text-sm my-4">
         <p>© 2024 Keystro</p>
       </div>
     </div>
