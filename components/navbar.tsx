@@ -74,7 +74,11 @@ export const FloatingNav = ({
             <span className=" text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <Link href={isMac ? "keystro-macos.dmg" : "keystro-windows.exe"}>
+        <Link
+          href={
+            isMac ? "/download/0.0.1/keystro-macos.dmg" : "keystro-windows.exe"
+          }
+        >
           <button className=" bg-[#0D5EF4] text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
             <span>Download</span>
             {/* <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" /> */}

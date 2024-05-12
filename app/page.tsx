@@ -52,7 +52,7 @@ export default function Home() {
         <div className="flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
           {isMac ? (
             <div className="px-6 flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
-              <Link href="keystro-macos.dmg">
+              <Link href="/download/0.0.1/keystro-macos.dmg">
                 <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
                   Download for Mac
                 </button>
@@ -69,7 +69,7 @@ export default function Home() {
                 Download for Windows
               </button>
               <div className="mx-2 my-2"></div>
-              <Link href="keystro-macos.dmg">
+              <Link href="/download/0.0.1/keystro-macos.dmg">
                 <button className="  px-8 py-2  rounded-full text-white border-2 border-[#0D5EF4] font-light transition duration-200 ease-linear">
                   Download for Mac
                 </button>
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="flex justify-center mt-4 align-center  tablet:flex-col mobile:flex-col ">
             {isMac ? (
               <div className="px-6 flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
-                <Link href="keystro-macos.dmg">
+                <Link href="/download/0.0.1/keystro-macos.dmg">
                   <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
                     Download for Mac
                   </button>
@@ -115,7 +115,7 @@ export default function Home() {
                   Download for Windows
                 </button>
                 <div className="mx-2 my-2"></div>
-                <Link href="keystro-macos.dmg">
+                <Link href="/download/0.0.1/keystro-macos.dmg">
                   <button className="  px-8 py-2  rounded-full text-white border-2 border-[#0D5EF4] font-light transition duration-200 ease-linear">
                     Download for Mac
                   </button>
