@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
   return (
     <section className="max-w-4xl mx-auto" id="pricing">
@@ -13,7 +15,10 @@ export default function Pricing() {
           </p>
         </div>
         <div className="space-y-8 grid grid-cols-2 gap-6 mobile:grid-cols-1 tablet:grid-cols-1 ">
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg text-white shadow  xl:p-8 bg-[#242424]">
+          <Link
+            href="https://keystro.lemonsqueezy.com/buy/1f9e6a5f-e784-40ab-81da-5a15ac4cc213"
+            className="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg text-white shadow  xl:p-8 bg-[#242424]"
+          >
             <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
 
             <div className="flex justify-center items-baseline my-4">
@@ -55,8 +60,11 @@ export default function Pricing() {
             <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
               Get started
             </button>
-          </div>
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg text-white shadow  xl:p-8 bg-[#242424] border border-[#0D5EF4]">
+          </Link>
+          <Link
+            href="https://keystro.lemonsqueezy.com/buy/29da4c16-0ea6-424d-a5d9-8b78ea5bfba3"
+            className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg text-white shadow  xl:p-8 bg-[#242424] border border-[#0D5EF4]"
+          >
             <h3 className="mb-4 text-2xl font-semibold">Extended</h3>
 
             <div className="flex justify-center items-baseline my-4">
@@ -98,7 +106,7 @@ export default function Pricing() {
             <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
               Get started
             </button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
