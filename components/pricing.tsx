@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { singleLink, threeLink } from "./url";
 
 export default function Pricing() {
   return (
@@ -16,7 +17,7 @@ export default function Pricing() {
         </div>
         <div className="space-y-8 grid grid-cols-2 gap-6 mobile:grid-cols-1 tablet:grid-cols-1 ">
           <Link
-            href="https://keystro.lemonsqueezy.com/buy/1f9e6a5f-e784-40ab-81da-5a15ac4cc213"
+            href={singleLink}
             className="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg text-white shadow  xl:p-8 bg-[#242424]"
           >
             <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
@@ -62,7 +63,7 @@ export default function Pricing() {
             </button>
           </Link>
           <Link
-            href="https://keystro.lemonsqueezy.com/buy/29da4c16-0ea6-424d-a5d9-8b78ea5bfba3"
+            href={threeLink}
             className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg text-white shadow  xl:p-8 bg-[#242424] border border-[#0D5EF4]"
           >
             <h3 className="mb-4 text-2xl font-semibold">Extended</h3>
