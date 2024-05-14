@@ -21,21 +21,17 @@ export default function Home() {
     {
       name: "Home",
       link: "/",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconHome className="h-4 w-4 text-neutral-500 text-white" />,
     },
     {
       name: "Pricing",
       link: "#pricing",
-      icon: (
-        <IconMoneybag className="h-4 w-4 text-neutral-500 dark:text-white" />
-      ),
+      icon: <IconMoneybag className="h-4 w-4 text-neutral-500 text-white" />,
     },
     {
       name: "Why?",
       link: "#why",
-      icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-      ),
+      icon: <IconMessage className="h-4 w-4 text-neutral-500 text-white" />,
     },
   ];
 

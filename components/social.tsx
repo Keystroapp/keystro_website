@@ -9,7 +9,7 @@ export default function SocialIcons() {
             href="https://twitter.com/keystroapp"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className=" hover:text-white text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -26,7 +26,7 @@ export default function SocialIcons() {
             href="https://github.com/keystroapp"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className=" hover:text-white text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -47,7 +47,7 @@ export default function SocialIcons() {
             href="mailto:keystroapp@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className=" hover:text-white text-gray-400"
           >
             <svg
               width="24"

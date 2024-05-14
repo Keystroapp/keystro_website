@@ -6,10 +6,10 @@ export default function Pricing() {
     <section className="max-w-4xl mx-auto" id="pricing">
       <div className="py-8 px-4 ">
         <div className="text-center mb-8 ">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold  text-white">
             Pay once, use forever
           </h2>
-          <p className="mb-5 font-light text-[#8C8C8C] sm:text-xl dark:text-gray-400">
+          <p className="mb-5 font-light text-[#8C8C8C] sm:text-xl ">
             Pricing is based on the number of devices you want to remove the
             watermark from. We know that our watermark is pretty anonying so we
             decided to go with a pay once, use forever price.
@@ -29,7 +29,7 @@ export default function Pricing() {
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5  text-green-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function Pricing() {
               </li>{" "}
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5  text-green-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default function Pricing() {
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5  text-green-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ export default function Pricing() {
               </li>
               <li className="flex items-center space-x-3">
                 <svg
-                  className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                  className="flex-shrink-0 w-5 h-5  text-green-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
