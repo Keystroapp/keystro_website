@@ -42,7 +42,7 @@ export default function RootLayout({
           itemProp="image"
           content="https://keystro.app/keystro_banner.jpg"
         />
-        <link rel="icon" href="./favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
 
         <title>Keystro app</title>
       </head>
