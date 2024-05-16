@@ -6,6 +6,6 @@ const singleLink =
 const threeLink =
   "https://keystro.lemonsqueezy.com/buy/40dff537-8afa-4fc6-83a5-e577705fef92";
 const windowsLink =
-  "https://apps.microsoft.com/detail/9n9p8jlx5kmq?hl=en-gb&gl=US";
+  "ms-windows-store://pdp?mode=full&hl=en-us&gl=us&productid=9n9p8jlx5kmq&referrer=storeforweb";
 
 export { dmgUrl, singleLink, threeLink, windowsLink };
