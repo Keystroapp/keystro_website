@@ -10,18 +10,27 @@ import ThockSection from "@/components/thock-section";
 import { dmgUrl, windowsDeepLink, windowsLink } from "@/components/url";
 import { IconHome, IconMessage, IconMoneybag } from "@tabler/icons-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import WhyYouNeedThis from "../components/why-you-need-this";
 
 export default function Home() {
-  const isMac =
-    typeof window !== "undefined"
-      ? navigator.platform.toUpperCase().indexOf("MAC") >= 0
-      : false;
+  const [isMac, setIsMac] = useState(false);
+  const [isWindows, setIsWindows] = useState(false);
 
-  const isWindows =
-    typeof window !== "undefined"
-      ? navigator.platform.toUpperCase().indexOf("WIN") >= 0
-      : false;
+  useEffect(() => {
+    const isMac =
+      typeof window !== "undefined"
+        ? navigator.platform.toUpperCase().indexOf("MAC") >= 0
+        : false;
+
+    const isWindows =
+      typeof window !== "undefined"
+        ? navigator.platform.indexOf("Win") > -1
+        : false;
+    setIsMac(isMac);
+    setIsWindows(isWindows);
+  }, []);
+
   const navItems = [
     {
       name: "Home",
