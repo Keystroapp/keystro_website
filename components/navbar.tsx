@@ -8,12 +8,13 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
-import { dmgUrl, windowsLink } from "./url";
+import { dmgUrl, windowsDeepLink, windowsLink } from "./url";
 
 export const FloatingNav = ({
   navItems,
   className,
   isMac,
+  isWindows,
 }: {
   navItems: {
     name: string;
@@ -21,6 +22,7 @@ export const FloatingNav = ({
     icon?: JSX.Element;
   }[];
   isMac: boolean;
+  isWindows: boolean;
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
@@ -75,7 +77,7 @@ export const FloatingNav = ({
             <span className=" text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <Link href={isMac ? dmgUrl : windowsLink}>
+        <Link href={isMac ? dmgUrl : isWindows ? windowsDeepLink : windowsLink}>
           <button className=" bg-[#0D5EF4] text-sm font-medium relative border-neutral-200 border-white/[0.2]  text-white px-4 py-2 rounded-full">
             <span>Download</span>
             {/* <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" /> */}

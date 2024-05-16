@@ -18,6 +18,7 @@ export default function Pricing() {
         <div className="space-y-8 grid grid-cols-2 gap-6 mobile:grid-cols-1 tablet:grid-cols-1 ">
           <Link
             href={singleLink}
+            target="_blank"
             className="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg text-white shadow  xl:p-8 bg-[#242424]"
           >
             <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
@@ -64,6 +65,7 @@ export default function Pricing() {
           </Link>
           <Link
             href={threeLink}
+            target="_blank"
             className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg text-white shadow  xl:p-8 bg-[#242424] border border-[#0D5EF4]"
           >
             <h3 className="mb-4 text-2xl font-semibold">Extended</h3>
