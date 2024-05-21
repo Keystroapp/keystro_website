@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +44,7 @@ export default function RootLayout({
           content="https://keystro.app/keystro_banner.jpg"
         />
         <link rel="icon" href="favicon.ico" />
-        <script src="https://cdn.paritydeals.com/banner.js"></script>
+        <Script src="https://cdn.paritydeals.com/banner.js" />
         <title>Keystro app</title>
       </head>
 
