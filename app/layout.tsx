@@ -43,7 +43,7 @@ export default function RootLayout({
           content="https://keystro.app/keystro_banner.jpg"
         />
         <link rel="icon" href="favicon.ico" />
-
+        <script src="https://cdn.paritydeals.com/banner.js"></script>
         <title>Keystro app</title>
       </head>
 
