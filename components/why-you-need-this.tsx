@@ -7,13 +7,14 @@ export default function WhyYouNeedThis() {
             Why do you need to show keystrokes?
           </p>
           <p className="mobile:tablet:text-base text-lg mt-6 mobile:tablet:mt-4 text-[#8C8C8C] font-normal inter-var">
-            Keystrokes are a great way to show your audience what you’re doing.
-            shows keycap visualizations in a stunningly elegant way on your
-            screen in an instant. Displaying keystrokes while lecturing,
-            sharing, and recording your screen helps your audience to follow
-            along with ease. Keyboard shortcuts are also essential for app
-            demos, presentations, and how-to videos. Let your audience see which
-            keys you’re pressing, so you can focus on your actual topic.
+            Keystrokes are an excellent way to demonstrate to your audience what
+            you are doing. Show keycap visualizations in a beautifully elegant
+            manner on your screen instantly. Displaying keystrokes while
+            lecturing, sharing, and recording your screen assists your audience
+            in following along effortlessly. Keyboard shortcuts are also crucial
+            for application demonstrations, presentations, and instructional
+            videos. Allow your audience to observe the keys you are pressing, so
+            you can concentrate on your main topic.
           </p>
         </div>
       </div>

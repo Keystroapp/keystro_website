@@ -11,7 +11,7 @@ export default function KeystorkeSection() {
         </h1>
         <p className="mobile:tablet:text-base text-lg mt-6 mobile:tablet:mt-4 text-[#8C8C8C] font-normal inter-var">
           Personalize keycap colors, Explore diffrent styles and themes. Enjoy
-          Flexible widget placement: Any pixel of your screen , Your choice!
+          Flexible widget placement: Any pixel of your screen; Your choice!
         </p>
         <div className="border-t border-t-gray-800 border-t-1 mt-4 ">
           <h1 className="text-xl md:text-xl mt-4  lg:text-xl text-white font-bold inter-var">

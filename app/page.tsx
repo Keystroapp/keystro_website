@@ -57,8 +57,8 @@ export default function Home() {
           Enhance Your Screen Recording Experience!
         </h1>
         <p className="tablet:text-base mobile:text-base text-lg px-6 md:mt-10 mt-4 text-[#8C8C8C] font-normal inter-var text-center">
-          Show which key you pressing to your audience, Highlight Your Cursor,
-          and Hear Realistic Keyboard Sounds! Available for Windows and MacOS.
+          Show which key you pressing to your audience, Highlight your cursor,
+          and hear realistic keyboard sounds! Available for Windows and MacOS.
         </p>
         <div className="flex justify-center mt-10 align-center  tablet:flex-col mobile:flex-col ">
           {isMac ? (
@@ -101,7 +101,7 @@ export default function Home() {
         <p className="text-sm md:text-sm px-6 mt-4 text-gray-400 font-normal inter-var text-center">
           {isMac
             ? "Supports Mac Intel & Apple Silicon. macOS 10.15+"
-            : "Supports Windows 7+"}
+            : "Supports Windows 10 version 17763.0 or higher"}
         </p>
       </WavyBackground>
       <KeystorkeSection />
@@ -157,7 +157,7 @@ export default function Home() {
           <p className="text-sm md:text-sm px-6 mt-4 text-gray-400 font-normal inter-var text-center">
             {isMac
               ? "Supports Mac Intel & Apple Silicon. macOS 10.15+"
-              : "Supports Windows 7+"}
+              : "Supports Windows 10 version 17763.0 or higher"}
           </p>
         </div>
       </div>

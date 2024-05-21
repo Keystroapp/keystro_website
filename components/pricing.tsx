@@ -11,11 +11,11 @@ export default function Pricing() {
           </h2>
           <p className="mb-5 font-light text-[#8C8C8C] sm:text-xl ">
             Pricing is based on the number of devices you want to remove the
-            watermark from. We know that our watermark is pretty anonying so we
+            watermark from. We know that our watermark is pretty annoying so we
             decided to go with a pay once, use forever price.
           </p>
         </div>
-        <div className="space-y-8 grid grid-cols-2 gap-6 mobile:grid-cols-1 tablet:grid-cols-1 ">
+        <div className="grid grid-cols-2 gap-6 mobile:grid-cols-1 tablet:grid-cols-1 ">
           <Link
             href={singleLink}
             target="_blank"
@@ -36,9 +36,9 @@ export default function Pricing() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
                 <span>Removes watermark on one device.</span>
@@ -51,9 +51,9 @@ export default function Pricing() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
                 <span>Use forever.</span>
@@ -83,12 +83,12 @@ export default function Pricing() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Removes watermark on Three devices.</span>
+                <span>Removes watermark on three devices.</span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
@@ -98,9 +98,9 @@ export default function Pricing() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
                 <span>Use forever on all your devices.</span>
