@@ -109,6 +109,7 @@ export default function Home() {
       <ThockSection />
       <WhyYouNeedThis />
       <Pricing />
+      <div id="discount-banner"></div>
       <div className="max-w-4xl mx-auto h-[80vh] flex items-center justify-center">
         <div>
           <h1 className="mobile:text-2xl tablet:text-4xl text-7xl text-white font-bold inter-var text-center">
