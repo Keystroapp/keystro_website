@@ -24,7 +24,7 @@ export default function Pricing() {
             <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
 
             <div className="flex justify-center items-baseline my-4">
-              <span className="mr-2 text-5xl font-extrabold">$14.99</span>
+              <span className="mr-2 text-5xl font-extrabold">$9.99</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
@@ -56,7 +56,7 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Use forever.</span>
+                <span>Use forever on one device.</span>
               </li>
             </ul>
             <button className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
@@ -71,7 +71,7 @@ export default function Pricing() {
             <h3 className="mb-4 text-2xl font-semibold">Extended</h3>
 
             <div className="flex justify-center items-baseline my-4">
-              <span className="mr-2 text-5xl font-extrabold">$29.99</span>
+              <span className="mr-2 text-5xl font-extrabold">$19.99</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
