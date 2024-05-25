@@ -24,7 +24,7 @@ export default function Pricing() {
             <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
 
             <div className="flex justify-center items-baseline my-4">
-              <span className="mr-2 text-5xl font-extrabold">$9.99</span>
+              <span className="mr-2 text-5xl font-extrabold">$5.99</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
@@ -71,7 +71,7 @@ export default function Pricing() {
             <h3 className="mb-4 text-2xl font-semibold">Extended</h3>
 
             <div className="flex justify-center items-baseline my-4">
-              <span className="mr-2 text-5xl font-extrabold">$19.99</span>
+              <span className="mr-2 text-5xl font-extrabold">$12.99</span>
             </div>
 
             <ul role="list" className="mb-8 space-y-4 text-left mt-4">
