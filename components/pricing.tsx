@@ -88,7 +88,9 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Removes watermark on three devices.</span>
+                <span>
+                  Removes watermark on <strong>three</strong> devices.
+                </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
