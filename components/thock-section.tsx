@@ -7,7 +7,7 @@ export default function ThockSection() {
       "
       >
         <h1 className="text-3xl text-white font-bold inter-var">
-          Satisfying sound with every keystroke
+          Hear realistic keyboard sounds!
         </h1>
         <p className="mobile:tablet:text-base text-lg mt-6 mobile:tablet:mt-4 text-[#8C8C8C] font-normal inter-var">
           Don&apos;t have mechanical keyboards but miss those juicy sounds?
