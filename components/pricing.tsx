@@ -114,6 +114,20 @@ export default function Pricing() {
           </Link>
         </div>
       </div>
+      <div className="text-center mt-8">
+        <p>
+          Check out our affiliate program today & earn up to
+          <strong> $3.00</strong> on each sale!
+        </p>
+        <Link
+          href={"https://keystro.lemonsqueezy.com/affiliates"}
+          target="_blank"
+        >
+          <button className="my-4 shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(14,32,48,0.9)] px-8 py-2 border border-[#0D5EF4] rounded-full text-white font-light transition duration-200 ease-linear">
+            Know more about program
+          </button>
+        </Link>
+      </div>
     </section>
   );
 }

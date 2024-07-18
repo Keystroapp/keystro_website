@@ -24,11 +24,11 @@ export default function ThockSection() {
         </div>
       </div>
 
-      <div className="rounded-xl  grow-2">
+      <div className="rounded-xl grow-2">
         <video
           controls={true}
-          loop={true}
-          autoPlay={true}
+          loop={false}
+          autoPlay={false}
           preload="auto"
           playsInline={true}
           className="rounded-xl"
